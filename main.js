@@ -24,7 +24,8 @@ button.addEventListener('click', function() {
 
 function jsErrorFunc() {
 	console.log('function called')
-	throw new Error('test error');
+	null.f();
+	//throw new Error('test error');
 };
 
 
