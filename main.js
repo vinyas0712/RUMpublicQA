@@ -23,9 +23,12 @@ button.addEventListener('click', function() {
 
 
 function jsErrorFunc() {
-	console.log('function called')
-	null.f();
+	//console.log('function called')
+	//null.f();
 	//throw new Error('test error');
+
+
+	eval('var x = ;');
 };
 
 
